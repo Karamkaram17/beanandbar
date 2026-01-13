@@ -2,15 +2,15 @@ const MENU_DATA = {
   "store": {
     "sm": {
       "email": null,
+      "whatsappUrl": "https://api.whatsapp.com/send/?phone=%2B96176337179&text&type=phone_number&app_absent=0",
       "location": "Ehden, B'oufa",
       "locationTranslation": null,
       "locationUrl": "https://maps.app.goo.gl/Z8fovTD1EogJ8ehW6",
-      "facebookUrl": "https://www.facebook.com/profile.php?id=100095262936093",
       "instagramUrl": "https://www.instagram.com/thebeanandbar",
-      "whatsappUrl": "https://api.whatsapp.com/send/?phone=%2B96176337179&text&type=phone_number&app_absent=0"
+      "facebookUrl": "https://www.facebook.com/profile.php?id=100095262936093"
     },
-    "_id": "67622479ee097d842fd9afd4",
-    "menuId": "66d751cc2dfd45c14807f7cf",
+    "_id": "696681e8535fb973f32ec9d1",
+    "menuId": "696681da535fb973f32ec9c8",
     "currency": "$",
     "languages": [],
     "mainLang": null,
@@ -18,15 +18,15 @@ const MENU_DATA = {
     "displayedPhoneNumber": "76 337 179",
     "storeLogo": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/52dd627d-b3c7-45c0-84c6-765568895c6d.jpg",
     "storeName": "The Bean & Bar",
+    "quote": null,
     "aboutUs": null,
     "aboutUsTranslation": null,
-    "quote": null,
     "templateId": "beanandbar"
   },
   "categories": [
     {
-      "_id": "67fcfdb8908188f42860d65c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9d4",
+      "menuId": "696681da535fb973f32ec9c8",
       "label": "Food",
       "order": 1,
       "img": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/53aa5c99-f998-4ff0-a944-4b0a7897ed01.png",
@@ -34,8 +34,8 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fcfdb8908188f42860d65e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9d5",
+      "menuId": "696681da535fb973f32ec9c8",
       "label": "Beverage",
       "order": 2,
       "img": null,
@@ -43,8 +43,8 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd08f0908188f42860d6d6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9d6",
+      "menuId": "696681da535fb973f32ec9c8",
       "label": "Alcohol",
       "order": 3,
       "img": null,
@@ -52,8 +52,8 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd098f908188f42860d6e4",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9d7",
+      "menuId": "696681da535fb973f32ec9c8",
       "label": "Desserts",
       "order": 4,
       "img": null,
@@ -61,8 +61,8 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0d96908188f42860d79a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9d8",
+      "menuId": "696681da535fb973f32ec9c8",
       "label": "Narguile",
       "order": 5,
       "img": null,
@@ -72,30 +72,30 @@ const MENU_DATA = {
   ],
   "sub_categories": [
     {
-      "_id": "676478aeae2975c5d0f40821",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9df",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d5",
       "label": "Cold",
       "order": 2,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/315cc3bd-3365-42ee-983d-eaeaf061b984.png",
       "hide": false,
-      "categoryId": "67fcfdb8908188f42860d65e",
       "note": null
     },
     {
-      "_id": "676478aeae2975c5d0f40825",
-      "menuId": "66d751cc2dfd45c14807f7cf",
+      "_id": "696681e8535fb973f32ec9e0",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Whiskey",
       "order": 13,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/0040470d-ae3b-4b0c-a2e8-6b430d9acd03.png",
-      "hide": false,
-      "categoryId": "67fd08f0908188f42860d6d6"
+      "hide": false
     },
     {
-      "_id": "67fd098f908188f42860d6e6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65e",
+      "_id": "696681e8535fb973f32ec9e1",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d5",
       "label": "Hot",
       "order": 3,
       "img": null,
@@ -104,9 +104,9 @@ const MENU_DATA = {
       "note": null
     },
     {
-      "_id": "67fd098f908188f42860d6e8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65e",
+      "_id": "696681e8535fb973f32ec9e2",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d5",
       "label": "Non Alcoholic Drinks",
       "order": 4,
       "img": null,
@@ -115,9 +115,9 @@ const MENU_DATA = {
       "note": null
     },
     {
-      "_id": "67fd0990908188f42860d6ea",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e3",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Wine",
       "order": 8,
       "img": null,
@@ -125,9 +125,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0990908188f42860d6ec",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e4",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Vodka",
       "order": 12,
       "img": null,
@@ -135,9 +135,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0990908188f42860d6ee",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e5",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Beer",
       "order": 7,
       "img": null,
@@ -146,9 +146,9 @@ const MENU_DATA = {
       "note": null
     },
     {
-      "_id": "67fd0a38908188f42860d6fd",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e6",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Cocktails",
       "order": 11,
       "img": null,
@@ -157,9 +157,9 @@ const MENU_DATA = {
       "note": null
     },
     {
-      "_id": "67fd0a38908188f42860d6ff",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e7",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Champagne",
       "order": 10,
       "img": null,
@@ -167,9 +167,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0a39908188f42860d701",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9e8",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Gin",
       "order": 9,
       "img": null,
@@ -177,9 +177,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0a39908188f42860d703",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9e9",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Breakfast",
       "order": 14,
       "img": null,
@@ -188,9 +188,9 @@ const MENU_DATA = {
       "note": "Breakfast items are only available from 10 AM to 1 PM\nFrom Friday to Monday"
     },
     {
-      "_id": "67fd0a39908188f42860d705",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9ea",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Appetizers",
       "order": 15,
       "img": null,
@@ -198,9 +198,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0a39908188f42860d707",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9eb",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Sandwiches",
       "order": 18,
       "img": null,
@@ -209,9 +209,9 @@ const MENU_DATA = {
       "note": "All sandwiches are served with fries and coleslaw"
     },
     {
-      "_id": "67fd0a3a908188f42860d709",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9ec",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Salads",
       "order": 16,
       "img": null,
@@ -219,9 +219,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0a3a908188f42860d70b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9ed",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Burgers",
       "order": 17,
       "img": null,
@@ -230,9 +230,9 @@ const MENU_DATA = {
       "note": "All burgers are served with fries and coleslaw"
     },
     {
-      "_id": "67fd0a3a908188f42860d70d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fcfdb8908188f42860d65c",
+      "_id": "696681e8535fb973f32ec9ee",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d4",
       "label": "Platters",
       "order": 19,
       "img": null,
@@ -240,9 +240,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd0d96908188f42860d79c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd098f908188f42860d6e4",
+      "_id": "696681e8535fb973f32ec9ef",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d7",
       "label": "Desserts",
       "order": 5,
       "img": null,
@@ -251,9 +251,9 @@ const MENU_DATA = {
       "note": null
     },
     {
-      "_id": "67fd0d96908188f42860d79e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd0d96908188f42860d79a",
+      "_id": "696681e8535fb973f32ec9f0",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d8",
       "label": "Narguile",
       "order": 6,
       "img": null,
@@ -261,9 +261,9 @@ const MENU_DATA = {
       "hide": false
     },
     {
-      "_id": "67fd6add908188f42860dd75",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "categoryId": "67fd08f0908188f42860d6d6",
+      "_id": "696681e8535fb973f32ec9f1",
+      "menuId": "696681da535fb973f32ec9c8",
+      "categoryId": "696681e8535fb973f32ec9d6",
       "label": "Signature",
       "order": 1,
       "img": null,
@@ -274,9 +274,9 @@ const MENU_DATA = {
   ],
   "items": [
     {
-      "_id": "67fd0b36908188f42860d736",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca06",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Strawberry Frappe",
       "description": null,
       "unit": null,
@@ -291,9 +291,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca07",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Tiramisu Frappe",
       "description": null,
       "unit": null,
@@ -308,9 +308,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d732",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca08",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Toffee Frappe",
       "description": null,
       "unit": null,
@@ -325,9 +325,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca09",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Cheesecake Frappe",
       "description": null,
       "unit": null,
@@ -342,9 +342,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Sparkling Water",
       "description": null,
       "unit": null,
@@ -359,9 +359,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d733",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Cookies And Cream",
       "description": null,
       "unit": null,
@@ -376,9 +376,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d734",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Lotus Frappe",
       "description": null,
       "unit": null,
@@ -393,9 +393,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d737",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Caramel Frappe",
       "description": null,
       "unit": null,
@@ -410,9 +410,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d738",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Mixed Berries",
       "description": null,
       "unit": null,
@@ -427,9 +427,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca0f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Soft Drinks",
       "description": null,
       "unit": null,
@@ -444,9 +444,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca10",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Energy Drinks",
       "description": null,
       "unit": null,
@@ -461,9 +461,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d735",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca11",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Mocha Frappe",
       "description": null,
       "unit": null,
@@ -478,9 +478,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d739",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca12",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Matcha",
       "description": null,
       "unit": null,
@@ -495,9 +495,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0b36908188f42860d73f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca13",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Water",
       "description": null,
       "unit": null,
@@ -512,9 +512,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d760",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca14",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Cappuccino",
       "description": null,
       "unit": null,
@@ -529,9 +529,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d766",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca15",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Turkish Coffee",
       "description": null,
       "unit": null,
@@ -546,9 +546,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d75c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca16",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Hot Chocolate",
       "description": null,
       "unit": null,
@@ -563,9 +563,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d75e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca17",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Toffee",
       "description": null,
       "unit": null,
@@ -580,9 +580,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d75f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca18",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Lotus",
       "description": null,
       "unit": null,
@@ -597,9 +597,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d761",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca19",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Nescafe",
       "description": null,
       "unit": null,
@@ -614,9 +614,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d762",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca1a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Espresso",
       "description": null,
       "unit": null,
@@ -631,9 +631,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d763",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca1b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Tea",
       "description": null,
       "unit": null,
@@ -648,9 +648,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d764",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca1c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "American Coffee",
       "description": null,
       "unit": null,
@@ -665,9 +665,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c04908188f42860d765",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca1d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Americano",
       "description": null,
       "unit": null,
@@ -682,9 +682,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d785",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca1e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Minted Lemonade",
       "description": null,
       "unit": null,
@@ -699,9 +699,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d788",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca1f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Jamaica",
       "description": null,
       "unit": null,
@@ -716,9 +716,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d784",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca20",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Lemonade",
       "description": null,
       "unit": null,
@@ -733,9 +733,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d787",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca21",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Strawberry Sunrise",
       "description": null,
       "unit": null,
@@ -750,9 +750,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d78a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca22",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Pina Colada",
       "description": null,
       "unit": null,
@@ -767,9 +767,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d78b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca23",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Ice Tea Lemon",
       "description": null,
       "unit": null,
@@ -784,9 +784,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d786",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca24",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Strawberry Lemonade",
       "description": null,
       "unit": null,
@@ -801,9 +801,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d789",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca25",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Blue Hawaii",
       "description": null,
       "unit": null,
@@ -818,9 +818,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0c7d908188f42860d78c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca26",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Ice Tea Peach",
       "description": null,
       "unit": null,
@@ -835,9 +835,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79c",
+      "_id": "696681e9535fb973f32eca27",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ef",
       "label": "Fondant",
       "description": "",
       "unit": null,
@@ -852,9 +852,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79e",
+      "_id": "696681e9535fb973f32eca28",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9f0",
       "label": "Teffehten",
       "description": null,
       "unit": null,
@@ -869,9 +869,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b5",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79e",
+      "_id": "696681e9535fb973f32eca29",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9f0",
       "label": "Hamod W Naanaa",
       "description": null,
       "unit": null,
@@ -886,9 +886,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b0",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79c",
+      "_id": "696681e9535fb973f32eca2a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ef",
       "label": "Tiramisu",
       "description": null,
       "unit": null,
@@ -903,9 +903,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79c",
+      "_id": "696681e9535fb973f32eca2b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ef",
       "label": "Lotus Cheesecake",
       "description": null,
       "unit": null,
@@ -920,9 +920,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b2",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79c",
+      "_id": "696681e9535fb973f32eca2c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ef",
       "label": "Strawberry Cheesecake",
       "description": null,
       "unit": null,
@@ -937,9 +937,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0d9b908188f42860d7b4",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0d96908188f42860d79c",
+      "_id": "696681e9535fb973f32eca2d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ef",
       "label": "Ice Cream",
       "description": "",
       "unit": "3 Scoops",
@@ -954,9 +954,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7de",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca2e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "DDT Glass",
       "description": "Blue - Rose - Red",
       "unit": null,
@@ -971,9 +971,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7df",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca2f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "Kefraya Glass",
       "description": "White - Rose - Red",
       "unit": null,
@@ -988,9 +988,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7e2",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6ff",
+      "_id": "696681e9535fb973f32eca30",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e7",
       "label": "Proseco",
       "description": null,
       "unit": null,
@@ -1005,9 +1005,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7d7",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca31",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Almaza",
       "description": null,
       "unit": null,
@@ -1022,9 +1022,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7d8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca32",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Almaza Light",
       "description": null,
       "unit": null,
@@ -1039,9 +1039,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7db",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca33",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Heineken",
       "description": null,
       "unit": null,
@@ -1056,9 +1056,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7e1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d701",
+      "_id": "696681e9535fb973f32eca34",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e8",
       "label": "Hendricks Glass",
       "description": null,
       "unit": null,
@@ -1073,9 +1073,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7da",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca35",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Almaza Mexican",
       "description": null,
       "unit": null,
@@ -1090,9 +1090,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7dd",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca36",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "Ksara Glass",
       "description": "White - Rose - Red - Marwah",
       "unit": null,
@@ -1107,9 +1107,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7e0",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d701",
+      "_id": "696681e9535fb973f32eca37",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e8",
       "label": "Gordons Glass",
       "description": null,
       "unit": null,
@@ -1124,9 +1124,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7d9",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca38",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Almaza Rose",
       "description": null,
       "unit": null,
@@ -1141,9 +1141,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7dc",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ee",
+      "_id": "696681e9535fb973f32eca39",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e5",
       "label": "Heineken Mexican",
       "description": null,
       "unit": null,
@@ -1158,9 +1158,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd0f72908188f42860d7e3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6ff",
+      "_id": "696681e9535fb973f32eca3a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e7",
       "label": "Moet & Chandon",
       "description": null,
       "unit": null,
@@ -1175,9 +1175,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d808",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca3b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Midori Sour",
       "description": null,
       "unit": null,
@@ -1192,9 +1192,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d811",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca3c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Smirnoff Glass",
       "description": null,
       "unit": null,
@@ -1209,9 +1209,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d812",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca3d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Russian Std. Glass",
       "description": null,
       "unit": null,
@@ -1226,9 +1226,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d807",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca3e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Margarita",
       "description": null,
       "unit": null,
@@ -1243,9 +1243,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca3f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Take Me Home",
       "description": null,
       "unit": null,
@@ -1260,9 +1260,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d813",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca40",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Stolichnaya Red Glass",
       "description": null,
       "unit": null,
@@ -1277,9 +1277,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d814",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca41",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Stolichnaya Black Glass",
       "description": null,
       "unit": null,
@@ -1294,9 +1294,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca42",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Pina Colada",
       "description": null,
       "unit": null,
@@ -1311,9 +1311,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca43",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Bullfrog",
       "description": null,
       "unit": null,
@@ -1328,9 +1328,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca44",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Coba Libre",
       "description": null,
       "unit": null,
@@ -1345,9 +1345,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d810",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca45",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Long Island",
       "description": null,
       "unit": null,
@@ -1362,9 +1362,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d816",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca46",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Grey Goose Glass",
       "description": null,
       "unit": null,
@@ -1379,9 +1379,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d806",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca47",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Gin Basil",
       "description": null,
       "unit": null,
@@ -1396,9 +1396,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d809",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca48",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Mojito",
       "description": null,
       "unit": null,
@@ -1413,9 +1413,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca49",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Jamaica",
       "description": null,
       "unit": null,
@@ -1430,9 +1430,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d80b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca4a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Blue Hawaii",
       "description": null,
       "unit": null,
@@ -1447,9 +1447,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1136908188f42860d815",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca4b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Belvedere Glass",
       "description": null,
       "unit": null,
@@ -1464,9 +1464,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d85e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca4c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Jameson Glass",
       "description": null,
       "unit": null,
@@ -1481,9 +1481,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d862",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca4d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Jack Daniel Glass",
       "description": null,
       "unit": null,
@@ -1498,9 +1498,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d865",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca4e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Gold Label Glass",
       "description": null,
       "unit": null,
@@ -1515,9 +1515,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d85f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca4f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Red Label Glass",
       "description": null,
       "unit": null,
@@ -1532,9 +1532,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d860",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca50",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Black Label Glass",
       "description": null,
       "unit": null,
@@ -1549,9 +1549,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d864",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca51",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Glenfiddich Glass",
       "description": null,
       "unit": null,
@@ -1566,9 +1566,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d861",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca52",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Chivas Glass",
       "description": null,
       "unit": null,
@@ -1583,9 +1583,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd11ff908188f42860d863",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca53",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Double Black Glass",
       "description": null,
       "unit": null,
@@ -1600,9 +1600,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d886",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca54",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Nachos",
       "description": null,
       "unit": null,
@@ -1617,9 +1617,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d887",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca55",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Jalapeño Bites",
       "description": "",
       "unit": "6 Pcs",
@@ -1634,9 +1634,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca56",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Curly Fries",
       "description": null,
       "unit": null,
@@ -1651,9 +1651,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca57",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Wedges",
       "description": null,
       "unit": null,
@@ -1668,9 +1668,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d888",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca58",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Mozzarella Sticks",
       "description": "",
       "unit": "6 Pcs",
@@ -1685,9 +1685,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca59",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Chicken Fingers",
       "description": "",
       "unit": "6 Pcs",
@@ -1702,9 +1702,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca5a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Pizza",
       "description": "",
       "unit": "6 Pcs",
@@ -1719,9 +1719,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca5b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Rakakat Mix",
       "description": "",
       "unit": "6 Pcs",
@@ -1736,9 +1736,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd12c2908188f42860d88d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32eca5c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Fries",
       "description": null,
       "unit": null,
@@ -1753,9 +1753,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b0",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d709",
+      "_id": "696681e9535fb973f32eca5d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ec",
       "label": "Chicken Caesar",
       "description": null,
       "unit": null,
@@ -1770,9 +1770,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32eca5e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "Tawouk",
       "description": null,
       "unit": null,
@@ -1787,9 +1787,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b9",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32eca5f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "Fajita",
       "description": null,
       "unit": null,
@@ -1804,9 +1804,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8c0",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca60",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Escalope",
       "description": null,
       "unit": null,
@@ -1821,9 +1821,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b2",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d709",
+      "_id": "696681e9535fb973f32eca61",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ec",
       "label": "Quinoa Salad",
       "description": null,
       "unit": null,
@@ -1838,9 +1838,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b5",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32eca62",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Mighty Chicken Burger",
       "description": null,
       "unit": null,
@@ -1855,9 +1855,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8bd",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca63",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Chicken Platter",
       "description": "",
       "unit": null,
@@ -1872,9 +1872,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8be",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca64",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Tawouk Platter",
       "description": null,
       "unit": null,
@@ -1889,9 +1889,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32eca65",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Lebanese Burger",
       "description": null,
       "unit": null,
@@ -1906,9 +1906,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32eca66",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Swiss Mushroom Burger",
       "description": null,
       "unit": null,
@@ -1923,9 +1923,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b7",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32eca67",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Special Cheese Burger",
       "description": null,
       "unit": null,
@@ -1940,9 +1940,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8ba",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32eca68",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "Steak",
       "description": null,
       "unit": null,
@@ -1957,9 +1957,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8bb",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32eca69",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "Submarine",
       "description": null,
       "unit": null,
@@ -1974,9 +1974,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8c1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca6a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Chicken Mushroom",
       "description": null,
       "unit": null,
@@ -1991,9 +1991,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8c2",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca6b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Steak Au Poivre",
       "description": null,
       "unit": null,
@@ -2008,9 +2008,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8c3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca6c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Cordon Bleu",
       "description": null,
       "unit": null,
@@ -2025,9 +2025,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d709",
+      "_id": "696681e9535fb973f32eca6d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ec",
       "label": "Crab Salad",
       "description": null,
       "unit": null,
@@ -2042,9 +2042,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8b4",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32eca6e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Chicken Burger",
       "description": null,
       "unit": null,
@@ -2059,9 +2059,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8bc",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32eca6f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "Boneless",
       "description": null,
       "unit": null,
@@ -2076,9 +2076,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1407908188f42860d8bf",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70d",
+      "_id": "696681e9535fb973f32eca70",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ee",
       "label": "Roulade",
       "description": null,
       "unit": null,
@@ -2093,9 +2093,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e7",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca71",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Mini Labne",
       "description": "",
       "unit": "6 Pcs",
@@ -2110,9 +2110,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8eb",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca72",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Jebne",
       "description": null,
       "unit": null,
@@ -2127,9 +2127,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e4",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca73",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Lahem B Ajin",
       "description": "",
       "unit": "5 Pcs",
@@ -2144,9 +2144,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca74",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Mini Zaatar",
       "description": "",
       "unit": "6 Pcs",
@@ -2161,9 +2161,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8ec",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca75",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Labne",
       "description": null,
       "unit": null,
@@ -2178,9 +2178,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8ed",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca76",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Shanklish",
       "description": null,
       "unit": null,
@@ -2195,9 +2195,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e5",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca77",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Mini Jebne",
       "description": "",
       "unit": "6 Pcs",
@@ -2212,9 +2212,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca78",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Halloumi Baguette",
       "description": null,
       "unit": null,
@@ -2229,9 +2229,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8e9",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca79",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Eggs",
       "description": "",
       "unit": "3 eggs",
@@ -2246,9 +2246,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd1556908188f42860d8ea",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32eca7a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Kaakeh B Jebne",
       "description": null,
       "unit": null,
@@ -2263,9 +2263,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd15c2908188f42860d91e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca7b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Sahlab",
       "description": null,
       "unit": null,
@@ -2280,9 +2280,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd594b908188f42860db27",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca7c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Nutella Frappe",
       "description": null,
       "unit": null,
@@ -2297,9 +2297,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6956908188f42860dd3b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca7d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "Ksara Btl",
       "description": "White - Rose - Red - Marwah",
       "unit": null,
@@ -2314,9 +2314,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6956908188f42860dd3c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca7e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "DDT Btl",
       "description": "Blue - Rose - Red",
       "unit": null,
@@ -2331,9 +2331,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6956908188f42860dd3d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ea",
+      "_id": "696681e9535fb973f32eca7f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e3",
       "label": "Kefraya Btl",
       "description": "White - Rose - Red",
       "unit": null,
@@ -2348,9 +2348,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd62",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca80",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Passion Fruit Gin",
       "description": null,
       "unit": null,
@@ -2365,9 +2365,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd63",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca81",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Lychee Gin",
       "description": null,
       "unit": null,
@@ -2382,9 +2382,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd5e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca82",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Passion Fruit Martini",
       "description": null,
       "unit": null,
@@ -2399,9 +2399,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd5f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca83",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Lychee Martini",
       "description": null,
       "unit": null,
@@ -2416,9 +2416,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd60",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca84",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Blueberry Martini",
       "description": null,
       "unit": null,
@@ -2433,9 +2433,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd61",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca85",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Espresso Martini",
       "description": null,
       "unit": null,
@@ -2450,9 +2450,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6a7f908188f42860dd64",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca86",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Blueberry Gin",
       "description": null,
       "unit": null,
@@ -2467,9 +2467,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6ae2908188f42860dd89",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd6add908188f42860dd75",
+      "_id": "696681e9535fb973f32eca87",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9f1",
       "label": "Chocolate",
       "description": null,
       "unit": null,
@@ -2484,9 +2484,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6ae2908188f42860dd8a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd6add908188f42860dd75",
+      "_id": "696681e9535fb973f32eca88",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9f1",
       "label": "Caramel",
       "description": null,
       "unit": null,
@@ -2501,9 +2501,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddae",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca89",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Smirnoff Btl",
       "description": null,
       "unit": null,
@@ -2518,9 +2518,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddaf",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca8a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Russian Std. Btl",
       "description": null,
       "unit": null,
@@ -2535,9 +2535,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddb0",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca8b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Stolichnaya Red Btl",
       "description": null,
       "unit": null,
@@ -2552,9 +2552,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddb1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca8c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Stolichnaya Black Btl",
       "description": null,
       "unit": null,
@@ -2569,9 +2569,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddb2",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca8d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Belvedere Btl",
       "description": null,
       "unit": null,
@@ -2586,9 +2586,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddac",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d701",
+      "_id": "696681e9535fb973f32eca8e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e8",
       "label": "Gordons Btl",
       "description": null,
       "unit": null,
@@ -2603,9 +2603,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddb3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0990908188f42860d6ec",
+      "_id": "696681e9535fb973f32eca8f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e4",
       "label": "Grey Goose Btl",
       "description": null,
       "unit": null,
@@ -2620,9 +2620,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6bc6908188f42860ddad",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d701",
+      "_id": "696681e9535fb973f32eca90",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e8",
       "label": "Hendricks Btl",
       "description": null,
       "unit": null,
@@ -2637,9 +2637,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddd7",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca91",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Black Label Btl",
       "description": null,
       "unit": null,
@@ -2654,9 +2654,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860dddb",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca92",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Double Black Btl",
       "description": null,
       "unit": null,
@@ -2671,9 +2671,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddd5",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca93",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Jameson Btl",
       "description": null,
       "unit": null,
@@ -2688,9 +2688,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddd8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca94",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Chivas Btl",
       "description": null,
       "unit": null,
@@ -2705,9 +2705,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddd9",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca95",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Jack Daniel Btl",
       "description": null,
       "unit": null,
@@ -2722,9 +2722,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddd6",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca96",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Red Label Btl",
       "description": null,
       "unit": null,
@@ -2739,9 +2739,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860ddda",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca97",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Glenfiddich Btl",
       "description": null,
       "unit": null,
@@ -2756,9 +2756,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd6cae908188f42860dddc",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40825",
+      "_id": "696681e9535fb973f32eca98",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e0",
       "label": "Gold Label Btl",
       "description": null,
       "unit": null,
@@ -2773,9 +2773,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "67fd71fa908188f42860df37",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca99",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Nutella",
       "description": null,
       "unit": null,
@@ -2790,9 +2790,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684716135f9d73bc14275f33",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca9a",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Latte",
       "description": "Caramel - Vanille - hazelnut",
       "unit": null,
@@ -2807,9 +2807,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684716135f9d73bc14275f32",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "676478aeae2975c5d0f40821",
+      "_id": "696681e9535fb973f32eca9b",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9df",
       "label": "Ice Latte",
       "description": "Caramel - Vanilla - Hazelnut",
       "unit": null,
@@ -2824,9 +2824,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684d6d975f9d73bc142762c3",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e6",
+      "_id": "696681e9535fb973f32eca9c",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e1",
       "label": "Moccha",
       "description": null,
       "unit": null,
@@ -2841,9 +2841,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684d70125f9d73bc14276326",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca9d",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Passion Fruit",
       "description": null,
       "unit": null,
@@ -2858,9 +2858,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684d70c85f9d73bc14276348",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32eca9e",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Golden Sunset",
       "description": null,
       "unit": null,
@@ -2875,9 +2875,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "684d70c85f9d73bc14276349",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32eca9f",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Golden Sunset",
       "description": null,
       "unit": null,
@@ -2892,9 +2892,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "68616c71e1bd42aab1331ba7",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d705",
+      "_id": "696681e9535fb973f32ecaa0",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ea",
       "label": "Combo Appetizer",
       "description": null,
       "unit": null,
@@ -2909,9 +2909,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "686ffa36f65866a4f58567a1",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a3a908188f42860d70b",
+      "_id": "696681e9535fb973f32ecaa1",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9ed",
       "label": "Delite Burger",
       "description": null,
       "unit": null,
@@ -2926,9 +2926,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "686ffc48f65866a4f585680a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32ecaa2",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Mango Gin Basel",
       "description": null,
       "unit": null,
@@ -2943,9 +2943,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "686ffc48f65866a4f585680b",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "_id": "696681e9535fb973f32ecaa3",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e6",
       "label": "Strawberry Gin Basel",
       "description": null,
       "unit": null,
@@ -2960,9 +2960,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "686ffc48f65866a4f585680c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d707",
+      "_id": "696681e9535fb973f32ecaa4",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9eb",
       "label": "BBQ Chicken Sandwich",
       "description": null,
       "unit": null,
@@ -2977,9 +2977,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "68714a24f65866a4f5856b6a",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32ecaa5",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Croissant",
       "description": "Cheese - Zaatar - Chocolate",
       "unit": null,
@@ -2994,9 +2994,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "68714b46f65866a4f5856bb8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32ecaa6",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Sahlab",
       "description": null,
       "unit": null,
@@ -3011,9 +3011,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "68829fda84a4c8b3af48ce7c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a39908188f42860d703",
+      "_id": "696681e9535fb973f32ecaa7",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e9",
       "label": "Brown Halloumi Baguette",
       "description": null,
       "unit": null,
@@ -3028,9 +3028,9 @@ const MENU_DATA = {
       "sizes": []
     },
     {
-      "_id": "68c31582f7892453ef0255b8",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd098f908188f42860d6e8",
+      "_id": "696681e9535fb973f32ecaa8",
+      "menuId": "696681da535fb973f32ec9c8",
+      "subcategoryId": "696681e8535fb973f32ec9e2",
       "label": "Kiwi Splash",
       "description": null,
       "unit": null,
