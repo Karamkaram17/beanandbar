@@ -186,11 +186,11 @@ function createMenu(categoriesArray) {
 
   // Auto-render the first visible category
   const firstVisible = categoriesArray.find(
-    (c) => !c.hide && c.subcategories?.length
+    (c) => !c.hide && c.subcategories?.length,
   );
   if (firstVisible) {
     const firstBtn = toolbar.querySelector(
-      `button[data-category-id="${firstVisible._id}"]`
+      `button[data-category-id="${firstVisible._id}"]`,
     );
     renderCategorySections(firstVisible, firstBtn, true);
   }
@@ -275,8 +275,8 @@ function createMenu(categoriesArray) {
           (item.is_New
             ? ' <span class="item-new" aria-label="New item">New</span>'
             : item.is_Starred
-            ? ' <span class="item-new" aria-label="Best seller">Best Seller</span>'
-            : "") +
+              ? ' <span class="item-new" aria-label="Best seller">Best Seller</span>'
+              : "") +
           (item.unit ? ` <span class="item-unit">${item.unit}</span>` : "");
 
         const price = document.createElement("span");
@@ -341,7 +341,7 @@ function createMenu(categoriesArray) {
 
     const currentIndex = categoriesArray.findIndex(
       (c) =>
-        c._id === toolbar.querySelector("button.active")?.dataset.categoryId
+        c._id === toolbar.querySelector("button.active")?.dataset.categoryId,
     );
 
     let nextIndex = null;
@@ -353,7 +353,7 @@ function createMenu(categoriesArray) {
       // Swiped right → previous
       const reversed = [...categoriesArray].reverse();
       const prevCandidates = reversed.filter(
-        (c) => categoriesArray.indexOf(c) < currentIndex
+        (c) => categoriesArray.indexOf(c) < currentIndex,
       );
       if (prevCandidates.length) {
         nextIndex = categoriesArray.indexOf(prevCandidates[0]);
@@ -363,7 +363,7 @@ function createMenu(categoriesArray) {
     if (nextIndex !== null && nextIndex >= 0 && categoriesArray[nextIndex]) {
       const nextCat = categoriesArray[nextIndex];
       const nextBtn = toolbar.querySelector(
-        `button[data-category-id="${nextCat._id}"]`
+        `button[data-category-id="${nextCat._id}"]`,
       );
       renderCategorySections(nextCat, nextBtn);
     }
@@ -399,8 +399,9 @@ async function callLogApi() {
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify(payload),
-      }
+      },
     );
 
     const uuid = await response.text();
