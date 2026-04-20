@@ -22,7 +22,13 @@
     <!-- Skip to main content for accessibility -->
     <a href="#menu-sections" class="skip-link">Skip to menu</a>
 
-    <main id="menu-container" class="menu-container" role="main"></main>
+    <!-- Loader overlay -->
+    <div id="loader-overlay" class="loader-overlay">
+      <div class="loader-spinner"></div>
+      <p class="loader-text">Loading menu…</p>
+    </div>
+
+    <main id="menu-container" class="menu-container" role="main" style="display: none"></main>
 
     <footer class="menu-footer" role="contentinfo">
       <p>
@@ -36,8 +42,7 @@
       </p>
     </footer>
 
-    <script src="https://menus.blob.core.windows.net/shared/utils/logs.js"></script>
-    <script src="./js/data.js"></script>
+    <script src="./kss-engine/kss-engine.dev.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
