@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Wednesday, 13 May 2026 17:30:00 UTC",
+  "_dataFreshness": "Wednesday, 13 May 2026 18:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -1375,7 +1375,7 @@
       "is_Starred": false,
       "is_New": false,
       "sizes": {
-        "Glass": 1,
+        "Glass": 2,
         "Bottle": 20
       }
     },
