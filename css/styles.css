@@ -313,11 +313,54 @@ button {
   border-bottom: 1px solid var(--border);
 }
 
+.items-wrapper-sizes {
+  overflow-x: auto;
+}
+
+.item-size-columns {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) repeat(
+      var(--size-count, 2),
+      minmax(64px, 88px)
+    );
+  gap: 8px 12px;
+  align-items: center;
+  padding: 8px 20px 4px;
+}
+
+.item-size-columns-spacer {
+  min-width: 0;
+}
+
+.item-size-column-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.item-row-sizes {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) repeat(
+      var(--size-count, 2),
+      minmax(64px, 88px)
+    );
+  gap: 8px 12px;
+  align-items: center;
+}
+
 .item-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 16px;
+}
+
+.item-header.has-sizes {
+  display: block;
+  min-width: 0;
 }
 
 .item-name {
@@ -332,6 +375,23 @@ button {
   font-weight: 600;
   color: var(--accent);
   white-space: nowrap;
+}
+
+.item-sizes {
+  display: contents;
+}
+
+.item-size-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+  text-align: right;
+}
+
+.item-size-price-empty {
+  color: var(--text-dim);
+  font-weight: 500;
 }
 
 .item-description {
@@ -512,12 +572,38 @@ button {
     padding: 10px 14px;
   }
 
+  .item-size-columns {
+    padding-left: 14px;
+    padding-right: 14px;
+    grid-template-columns: minmax(120px, 1fr) repeat(
+        var(--size-count, 2),
+        minmax(52px, 70px)
+      );
+    gap: 6px 10px;
+  }
+
+  .item-row-sizes {
+    grid-template-columns: minmax(120px, 1fr) repeat(
+        var(--size-count, 2),
+        minmax(52px, 70px)
+      );
+    gap: 6px 10px;
+  }
+
   .item-name {
     font-size: 14px;
   }
 
   .item-price {
     font-size: 14px;
+  }
+
+  .item-size-column-label {
+    font-size: 11px;
+  }
+
+  .item-size-price {
+    font-size: 13px;
   }
 
   .item-description {

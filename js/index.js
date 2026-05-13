@@ -132,6 +132,29 @@ function createMenu(categoriesArray, store) {
   const currency = store?.currency || "$";
   const container = document.getElementById("menu-container");
 
+  function formatItemPrice(value) {
+    return value != null ? `${currency} ${value}` : "";
+  }
+
+  function hasPriceValue(value) {
+    return value != null && `${value}`.trim() !== "";
+  }
+
+  function escapeRegExp(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function getDisplayItemLabel(label, sizeLabels, usesSizes) {
+    if (!usesSizes || !Array.isArray(sizeLabels) || !sizeLabels.length) {
+      return label;
+    }
+
+    const sizePattern = sizeLabels.map(escapeRegExp).join("|");
+    const trailingSizeLabel = new RegExp(`\\s+(?:${sizePattern})$`, "i");
+
+    return label.replace(trailingSizeLabel, "").trim();
+  }
+
   // Create toolbar for categories with ARIA attributes
   const toolbar = document.createElement("nav");
   toolbar.id = "category-toolbar";
@@ -242,6 +265,8 @@ function createMenu(categoriesArray, store) {
     category.subCategories.forEach((sub, subIndex) => {
       if (sub.hide || !sub.items?.length) return;
 
+      const usesSizes = sub.useSizes === true && Array.isArray(sub.sizes);
+
       const subDiv = document.createElement("article");
       subDiv.className = "subcategory";
       subDiv.style.animationDelay = `${subIndex * 60}ms`;
@@ -268,20 +293,61 @@ function createMenu(categoriesArray, store) {
       itemsWrapper.setAttribute("role", "list");
       itemsWrapper.setAttribute("aria-labelledby", `subcategory-${sub._id}`);
 
+      if (usesSizes && sub.sizes.length) {
+        itemsWrapper.classList.add("items-wrapper-sizes");
+
+        const sizeHeader = document.createElement("div");
+        sizeHeader.className = "item-size-columns";
+        sizeHeader.setAttribute("aria-hidden", "true");
+        sizeHeader.style.setProperty("--size-count", String(sub.sizes.length));
+
+        const spacer = document.createElement("span");
+        spacer.className = "item-size-columns-spacer";
+        sizeHeader.appendChild(spacer);
+
+        sub.sizes.forEach((sizeLabel) => {
+          const sizeHeading = document.createElement("span");
+          sizeHeading.className = "item-size-column-label";
+          sizeHeading.textContent = sizeLabel;
+          sizeHeader.appendChild(sizeHeading);
+        });
+
+        itemsWrapper.appendChild(sizeHeader);
+      }
+
       sub.items.forEach((item) => {
         if (item.hide) return;
+
+        const itemSizes =
+          item.sizes &&
+          typeof item.sizes === "object" &&
+          !Array.isArray(item.sizes)
+            ? item.sizes
+            : null;
+        const orderedSizeLabels = usesSizes ? sub.sizes : [];
+        const hasSizeRows = usesSizes && orderedSizeLabels.length > 0;
 
         const itemRow = document.createElement("div");
         itemRow.className = "item-row";
         itemRow.setAttribute("role", "listitem");
+        if (hasSizeRows) {
+          itemRow.classList.add("item-row-sizes");
+          itemRow.style.setProperty(
+            "--size-count",
+            String(orderedSizeLabels.length),
+          );
+        }
 
         const header = document.createElement("div");
         header.className = "item-header";
+        if (hasSizeRows) {
+          header.classList.add("has-sizes");
+        }
 
         const name = document.createElement("span");
         name.className = "item-name";
         name.innerHTML =
-          item.label +
+          getDisplayItemLabel(item.label, orderedSizeLabels, hasSizeRows) +
           (item.is_New
             ? ' <span class="item-new" aria-label="New item">New</span>'
             : item.is_Starred
@@ -289,15 +355,55 @@ function createMenu(categoriesArray, store) {
               : "") +
           (item.unit ? ` <span class="item-unit">${item.unit}</span>` : "");
 
-        const price = document.createElement("span");
-        price.className = "item-price";
-        price.setAttribute("aria-label", `Price: ${currency} ${item.price}`);
-        price.textContent =
-          item.price != null ? `${currency} ${item.price}` : "";
-
         header.appendChild(name);
-        header.appendChild(price);
+
+        if (!hasSizeRows) {
+          const price = document.createElement("span");
+          price.className = "item-price";
+          price.setAttribute(
+            "aria-label",
+            `Price: ${formatItemPrice(item.price)}`,
+          );
+          price.textContent = formatItemPrice(item.price);
+          header.appendChild(price);
+        }
+
         itemRow.appendChild(header);
+
+        if (hasSizeRows) {
+          const sizeList = document.createElement("div");
+          sizeList.className = "item-sizes";
+          sizeList.setAttribute("role", "presentation");
+
+          orderedSizeLabels.forEach((sizeLabel) => {
+            const sizePrice = itemSizes?.[sizeLabel];
+            const hasSizePrice = hasPriceValue(sizePrice);
+
+            const sizeValue = document.createElement("span");
+            sizeValue.className = "item-size-price";
+            sizeValue.textContent = hasSizePrice
+              ? formatItemPrice(sizePrice)
+              : "-";
+            sizeValue.setAttribute("data-size-label", sizeLabel);
+
+            if (hasSizePrice) {
+              sizeValue.setAttribute(
+                "aria-label",
+                `${sizeLabel}: ${formatItemPrice(sizePrice)}`,
+              );
+            } else {
+              sizeValue.classList.add("item-size-price-empty");
+              sizeValue.setAttribute(
+                "aria-label",
+                `${sizeLabel}: Not available`,
+              );
+            }
+
+            sizeList.appendChild(sizeValue);
+          });
+
+          itemRow.appendChild(sizeList);
+        }
 
         if (item.description) {
           const desc = document.createElement("p");
