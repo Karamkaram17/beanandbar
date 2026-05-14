@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Wednesday, 13 May 2026 18:00:00 UTC",
+  "_dataFreshness": "Thursday, 14 May 2026 19:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -183,7 +183,12 @@
       "img": null,
       "bgImg": "",
       "hide": false,
-      "sizes": []
+      "sizes": [
+        "Glass",
+        "Bottle"
+      ],
+      "note": null,
+      "useSizes": true
     },
     {
       "_id": "696681e8535fb973f32ec9e8",
@@ -1065,7 +1070,9 @@
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": {
+        "Bottle": 150
+      }
     },
     {
       "_id": "696681e9535fb973f32eca37",
@@ -1184,7 +1191,9 @@
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": {
+        "Bottle": 50
+      }
     },
     {
       "_id": "696681e9535fb973f32eca33",
