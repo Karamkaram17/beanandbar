@@ -403,6 +403,8 @@ button {
   color: var(--accent);
   white-space: nowrap;
   text-align: right;
+  word-break: break-word;
+  text-wrap: auto;
 }
 
 .item-size-price-empty {
