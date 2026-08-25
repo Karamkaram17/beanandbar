@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Saturday, 23 May 2026 15:30:00 UTC",
+  "_dataFreshness": "Tuesday, 25 August 2026 07:30:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -2557,7 +2557,7 @@
       "menuId": "696681da535fb973f32ec9c8",
       "subcategoryId": "6a080a58fa23587ffe549898",
       "label": "Chocolate",
-      "description": null,
+      "description": "",
       "unit": null,
       "order": 1,
       "price": 6,
@@ -2567,7 +2567,8 @@
       "calories": null,
       "is_Starred": false,
       "is_New": true,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "6a080a58fa23587ffe549946",
